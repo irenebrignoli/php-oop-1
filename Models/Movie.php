@@ -18,4 +18,8 @@ class Movie{
     $this->length = $length;
   }
 
+  public function printMainDetails() {
+    return 'title: ' . $this->title . ', director: ' . $this->director . ', year: ' . $this->year_production . ', country: ' . $this->country_production . ', length: ' . $this->length;
+  }
+
 }
